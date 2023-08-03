@@ -5,7 +5,7 @@ from io import StringIO
 
 st.title('Hello world')
 st.markdown("---")
-uploaded_files = st.file_uploader("Choose a CSV file",type=["xlsx"], accept_multiple_files=True)
+uploaded_files = st.file_uploader("Choose a excel file",type=["xlsx"], accept_multiple_files=True)
 for uploaded_file in uploaded_files:
     if uploaded_file is not None:
         st.markdown("---")
